@@ -7,3 +7,5 @@
 4.Once revereted to a previous version of our file, we are only able to see the commits made upto that version and not the whole list of commits. To view all the commit/versions of the file we shall do (git log --all).
 
 5.Aliases can be used to create short hands for frequently used commands. (note: youhace set up s-->status and cm-->commit)
+
+6.you may create a .gitignore file create a list of files to be ignored by git during repo commiting (note: the ignored files may include password files, sensitive text files etc)
