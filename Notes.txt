@@ -4,3 +4,4 @@
 
 3.If we do a git log, we are met with a string of aplhanumeric characters which is known as a commit hash. We may use the commit hash to uniquely identify the version of our code that we want to revert back to.
  
+4.Once revereted to a previous version of our file, we are only able to see the commits made upto that version and not the whole list of commits. To view all the commit/versions of the file we shall do (git log --all).
