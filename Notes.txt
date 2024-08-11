@@ -9,3 +9,5 @@
 5.Aliases can be used to create short hands for frequently used commands. (note: youhace set up s-->status and cm-->commit)
 
 6.you may create a .gitignore file create a list of files to be ignored by git during repo commiting (note: the ignored files may include password files, sensitive text files etc)
+
+7.rm -rf .git deletes .git file from our directory which causes our folder to become a non-repo directory.
