@@ -1,0 +1,1 @@
+1.Git tracks not the files but the changes made to them.So, multiple versions of files may exist in the working and changing area.
