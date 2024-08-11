@@ -1,1 +1,6 @@
 1.Git tracks not the files but the changes made to them.So, multiple versions of files may exist in the working and changing area.
+
+2.Every text editor provides a git integration which simplifies the gigitty tasks with buttons which replace the commands.
+
+3.If we do a git log, we are met with a string of aplhanumeric characters which is known as a commit hash. We may use the commit hash to uniquely identify the version of our code that we want to revert back to.
+ 
