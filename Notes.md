@@ -44,3 +44,8 @@ cd ..
 ```bash
 pwd
 ```
+14. When we clone a remote git repo to our local machine, it becomes a comeplete separte directory which has no relation to the original local directory(*imagine it as if a user has downloaded our app from github*). Any change reflected on the cloned repo is not directly seen in the original local repo despite commits being pushed to the remote repo. This is becaues the commits arent recorded by the remote repo in real time. 
+
+so if you want to see the commits made to the remote repo with your original local repo, first you shall `git fetch` to see the changes made to the repo. And to impart the changes made in the cloned repo to the original repo, we shall do a `git pull`.
+
+***NOTE: Setting up an upstream is required only once. A single upstream works for both the Pull and push Commands.***
